@@ -27,7 +27,10 @@ namespace Movies
                 return movies;
             }
         }
-
+        public static List<Movie> Sort(List<Movie> movies)
+        {
+            return movies;
+        }
         public static List<Movie> Search(List<Movie> movies, string term)
         {
             List<Movie> results = new List<Movie>();
